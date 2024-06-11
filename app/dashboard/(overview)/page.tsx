@@ -48,7 +48,6 @@ export default async function Page() {
           <LatestInvoices />
         </Suspense>
 
-        <LatestInvoices latestInvoices={latestInvoices} />
       </div>
     </main>
   );
